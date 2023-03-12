@@ -4,6 +4,7 @@ wallet = wallet + 2;
 wallet = wallet -1;
 console.log(wallet);
 
+
 let nameInfo = "Account Name:";
 nameInfo = nameInfo + " Elon";
 nameInfo = nameInfo + " Musk";
@@ -89,4 +90,11 @@ for (let i = 5; i > 0; i--) {
 
 for (let i = 3; i >= 0; i--) {
     console.log(i);
+    
 }
+
+
+const message = document.getElementById("message");
+message.innerHTML = counter; 
+
+document.write("Do not press " + (5 + 5))
