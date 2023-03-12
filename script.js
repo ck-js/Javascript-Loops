@@ -93,8 +93,20 @@ for (let i = 3; i >= 0; i--) {
     
 }
 
+let friends = "Mutual Friends: ";
+friends += "Jack";
+friends += "Chamath";
+friends = friends + "Holly";
+console.log(friends);
 
-const message = document.getElementById("message");
-message.innerHTML = counter; 
+let account = 0;
 
-document.write("Do not press " + (5 + 5))
+console.log("Jill deposited $200");
+account += 200;
+console.log("You bought $17 milkshake")
+account -= 17;
+console.log("Your balance is " + account);
+
+
+console.log("Your total balance is " + account);
+
